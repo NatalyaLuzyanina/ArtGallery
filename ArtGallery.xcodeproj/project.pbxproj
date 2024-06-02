@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B931FE202C0B88DB00992AFC /* FullScreenPaintingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B931FE1F2C0B88DB00992AFC /* FullScreenPaintingsViewController.swift */; };
+		B931FE232C0B8C0300992AFC /* FullScreenPaintingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B931FE222C0B8C0300992AFC /* FullScreenPaintingViewCell.swift */; };
 		B93AEFE12C05C5870049BDC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93AEFE02C05C5870049BDC0 /* AppDelegate.swift */; };
 		B93AEFE32C05C5870049BDC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93AEFE22C05C5870049BDC0 /* SceneDelegate.swift */; };
-		B93AEFE52C05C5870049BDC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93AEFE42C05C5870049BDC0 /* ViewController.swift */; };
-		B93AEFE82C05C5870049BDC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93AEFE62C05C5870049BDC0 /* Main.storyboard */; };
+		B93AEFE52C05C5870049BDC0 /* ArtistsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93AEFE42C05C5870049BDC0 /* ArtistsTableViewController.swift */; };
 		B93AEFEA2C05C5890049BDC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B93AEFE92C05C5890049BDC0 /* Assets.xcassets */; };
 		B93AEFED2C05C5890049BDC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93AEFEB2C05C5890049BDC0 /* LaunchScreen.storyboard */; };
+		B93AEFF52C05D96B0049BDC0 /* ArtistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93AEFF42C05D96B0049BDC0 /* ArtistCell.swift */; };
+		B93AEFF72C067FFD0049BDC0 /* ArtistListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93AEFF62C067FFD0049BDC0 /* ArtistListService.swift */; };
+		B93AEFF92C06848F0049BDC0 /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93AEFF82C06848F0049BDC0 /* ArtistModel.swift */; };
+		B93AEFFB2C0690040049BDC0 /* artistsData.json in Resources */ = {isa = PBXBuildFile; fileRef = B93AEFFA2C0690040049BDC0 /* artistsData.json */; };
+		B93AEFFD2C075B2E0049BDC0 /* PaintingsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93AEFFC2C075B2E0049BDC0 /* PaintingsCollectionViewController.swift */; };
+		B93AF0252C076C4E0049BDC0 /* PaintingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93AF0242C076C4E0049BDC0 /* PaintingCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B931FE1F2C0B88DB00992AFC /* FullScreenPaintingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenPaintingsViewController.swift; sourceTree = "<group>"; };
+		B931FE222C0B8C0300992AFC /* FullScreenPaintingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenPaintingViewCell.swift; sourceTree = "<group>"; };
 		B93AEFDD2C05C5870049BDC0 /* ArtGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93AEFE02C05C5870049BDC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B93AEFE22C05C5870049BDC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B93AEFE42C05C5870049BDC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B93AEFE72C05C5870049BDC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B93AEFE42C05C5870049BDC0 /* ArtistsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsTableViewController.swift; sourceTree = "<group>"; };
 		B93AEFE92C05C5890049BDC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B93AEFEC2C05C5890049BDC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B93AEFEE2C05C5890049BDC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93AEFF42C05D96B0049BDC0 /* ArtistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCell.swift; sourceTree = "<group>"; };
+		B93AEFF62C067FFD0049BDC0 /* ArtistListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistListService.swift; sourceTree = "<group>"; };
+		B93AEFF82C06848F0049BDC0 /* ArtistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		B93AEFFA2C0690040049BDC0 /* artistsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = artistsData.json; sourceTree = "<group>"; };
+		B93AEFFC2C075B2E0049BDC0 /* PaintingsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingsCollectionViewController.swift; sourceTree = "<group>"; };
+		B93AF0242C076C4E0049BDC0 /* PaintingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B931FE1E2C0B889F00992AFC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B93AF0222C076BE60049BDC0 /* ArtistsTableView */,
+				B93AF0232C076C030049BDC0 /* PaintingsCollection */,
+				B931FE212C0B8BB100992AFC /* FullScreenPaintings */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B931FE212C0B8BB100992AFC /* FullScreenPaintings */ = {
+			isa = PBXGroup;
+			children = (
+				B931FE1F2C0B88DB00992AFC /* FullScreenPaintingsViewController.swift */,
+				B931FE222C0B8C0300992AFC /* FullScreenPaintingViewCell.swift */,
+			);
+			path = FullScreenPaintings;
+			sourceTree = "<group>";
+		};
 		B93AEFD42C05C5870049BDC0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +89,67 @@
 		B93AEFDF2C05C5870049BDC0 /* ArtGallery */ = {
 			isa = PBXGroup;
 			children = (
-				B93AEFE02C05C5870049BDC0 /* AppDelegate.swift */,
-				B93AEFE22C05C5870049BDC0 /* SceneDelegate.swift */,
-				B93AEFE42C05C5870049BDC0 /* ViewController.swift */,
-				B93AEFE62C05C5870049BDC0 /* Main.storyboard */,
-				B93AEFE92C05C5890049BDC0 /* Assets.xcassets */,
+				B93AF01E2C076B660049BDC0 /* Supporting */,
+				B931FE1E2C0B889F00992AFC /* Modules */,
+				B93AF0202C076BBB0049BDC0 /* Managers */,
+				B93AF0212C076BD50049BDC0 /* Models */,
+				B93AF01F2C076B830049BDC0 /* Resources */,
 				B93AEFEB2C05C5890049BDC0 /* LaunchScreen.storyboard */,
 				B93AEFEE2C05C5890049BDC0 /* Info.plist */,
 			);
 			path = ArtGallery;
+			sourceTree = "<group>";
+		};
+		B93AF01E2C076B660049BDC0 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				B93AEFE02C05C5870049BDC0 /* AppDelegate.swift */,
+				B93AEFE22C05C5870049BDC0 /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		B93AF01F2C076B830049BDC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B93AEFE92C05C5890049BDC0 /* Assets.xcassets */,
+				B93AEFFA2C0690040049BDC0 /* artistsData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B93AF0202C076BBB0049BDC0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B93AEFF62C067FFD0049BDC0 /* ArtistListService.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B93AF0212C076BD50049BDC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B93AEFF82C06848F0049BDC0 /* ArtistModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B93AF0222C076BE60049BDC0 /* ArtistsTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B93AEFE42C05C5870049BDC0 /* ArtistsTableViewController.swift */,
+				B93AEFF42C05D96B0049BDC0 /* ArtistCell.swift */,
+			);
+			path = ArtistsTableView;
+			sourceTree = "<group>";
+		};
+		B93AF0232C076C030049BDC0 /* PaintingsCollection */ = {
+			isa = PBXGroup;
+			children = (
+				B93AEFFC2C075B2E0049BDC0 /* PaintingsCollectionViewController.swift */,
+				B93AF0242C076C4E0049BDC0 /* PaintingCollectionViewCell.swift */,
+			);
+			path = PaintingsCollection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +210,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93AEFFB2C0690040049BDC0 /* artistsData.json in Resources */,
 				B93AEFED2C05C5890049BDC0 /* LaunchScreen.storyboard in Resources */,
 				B93AEFEA2C05C5890049BDC0 /* Assets.xcassets in Resources */,
-				B93AEFE82C05C5870049BDC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +223,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B93AEFE52C05C5870049BDC0 /* ViewController.swift in Sources */,
+				B93AEFE52C05C5870049BDC0 /* ArtistsTableViewController.swift in Sources */,
 				B93AEFE12C05C5870049BDC0 /* AppDelegate.swift in Sources */,
+				B93AF0252C076C4E0049BDC0 /* PaintingCollectionViewCell.swift in Sources */,
+				B93AEFF72C067FFD0049BDC0 /* ArtistListService.swift in Sources */,
+				B93AEFF52C05D96B0049BDC0 /* ArtistCell.swift in Sources */,
+				B93AEFF92C06848F0049BDC0 /* ArtistModel.swift in Sources */,
 				B93AEFE32C05C5870049BDC0 /* SceneDelegate.swift in Sources */,
+				B931FE202C0B88DB00992AFC /* FullScreenPaintingsViewController.swift in Sources */,
+				B931FE232C0B8C0300992AFC /* FullScreenPaintingViewCell.swift in Sources */,
+				B93AEFFD2C075B2E0049BDC0 /* PaintingsCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B93AEFE62C05C5870049BDC0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B93AEFE72C05C5870049BDC0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B93AEFEB2C05C5890049BDC0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +380,6 @@
 				INFOPLIST_FILE = ArtGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,9 +389,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = NataliaLuzyanina.ArtGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,7 +409,6 @@
 				INFOPLIST_FILE = ArtGallery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,9 +418,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = NataliaLuzyanina.ArtGallery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
